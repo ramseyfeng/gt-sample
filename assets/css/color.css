@@ -1,0 +1,191 @@
+:root {
+    --Turquoise: #1ABC9C;
+    --GreenSea: #16A085;
+    --Emerald: #2ECC71;
+    --Nephritis: #27AE60;
+    --Clouds: #ECF0F1;
+    --Concrete: #95A5A6;
+    --Asbestos: #7F8C8D;
+    --Silver: #BDC3C7;
+    --WetAsphalt: #34495E;
+    --MidnightBlue: #2C3E50;
+    --Orange: #F39C12;
+    --SunFlower: #F1C40F;
+    --PeterRiver: #3498DB;
+    --BelizeHole: #2980B9;
+    --Alizarin: #E74C3C;
+    --Pomegranate: #C0392B;
+}
+
+.impress-enabled .step {
+    opacity: .15;
+}
+
+.color-turquoise {
+    color: var(--Turquoise);
+}
+
+.color-green-sea {
+    color: var(--GreenSea);
+}
+
+.color-clouds {
+    color: var(--Clouds);
+}
+
+.color-concrete {
+    color: var(--Concrete);
+}
+
+.color-silver {
+    color: var(--Silver);
+}
+
+.color-wet-asphalt {
+    color: var(--WetAsphalt);
+}
+
+.color-midnight-blue {
+    color: var(--MidnightBlue);
+}
+
+.color-orange {
+    color: var(--Orange);
+}
+
+.bg-turquoise {
+    background-color: var(--Turquoise);
+}
+
+.bg-green-sea {
+    background-color: var(--GreenSea);
+}
+
+.bg-clouds {
+    background-color: var(--Clouds);
+}
+
+.bg-concrete {
+    background-color: var(--Concrete);
+}
+
+.bg-silver {
+    background-color: var(--Silver);
+}
+
+.bg-wet-asphalt {
+    background-color: var(--WetAsphalt);
+}
+
+.bg-midnight-blue {
+    background-color: var(--MidnightBlue);
+}
+
+.bg-orange {
+    background-color: var(--Orange);
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.overview-0 {
+    min-width: 1000px;
+}
+
+.overview-0 h3 {
+    margin: 0;
+}
+
+.overview-0 li div {
+    text-align: end;
+}
+
+.overview-1 b {
+    font-size: 136pt;
+    color: white;
+}
+
+#overview2 {
+    font-size: 22pt;
+}
+
+
+.step-1 {
+    padding: 0;
+    width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://miro.medium.com/max/3840/1*hpKSfyKUDmlifunTW9N0Qw.jpeg);
+}
+
+#step-2 h3, #step-2 h4 {
+    text-align: start;
+}
+
+#step-2 h4 {
+    padding-left: 20px;
+}
+
+#step-3 {
+    padding: 30px 0;
+    min-width: 1000px;
+}
+
+#step-3 .img-raspberry {
+    margin: 0 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(http://ozcan.com/blog/wp-content/uploads/RaspberryPI_VPN_Gateway2.png);
+}
+
+#step-3 h6 {
+    margin: 10px 30px;
+}
+
+#step-3 .container-3 {
+    height: 100%;
+}
+
+#step-4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/thanks.gif);
+}
+
+.present .rotating {
+    display: inline-block;
+    transform: rotate(-10deg);
+    transition-delay: 0.25s;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container * {
+    border: 2px solid var(--MidnightBlue);
+    border-radius: 16px;
+}
+
+.flex--1 {
+    flex: 1 1 auto;
+}
+
+.margin-v--100 {
+    margin: 100px 0;
+}
