@@ -95,6 +95,10 @@
     width: 200px;
 }
 
+.overview-a {
+    width: 1000px;
+}
+
 .overview-0 {
     min-width: 1000px;
 }
@@ -112,10 +116,23 @@
     color: white;
 }
 
-#overview2 {
-    font-size: 22pt;
+.flex--center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#overview2 {
+    font-size: 22pt;
+    width: 1000px;
+}
+
+#overview2 ul li {
+    text-align: start;
+    font-size: 36px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
 
 .step-1 {
     padding: 0;
@@ -145,6 +162,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(http://ozcan.com/blog/wp-content/uploads/RaspberryPI_VPN_Gateway2.png);
+}
+
+.h--100 {
+    height: 100%;
 }
 
 #step-3 h6 {
